@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>web3 test</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/bignumber.min.js"></script>
+	<script type="text/javascript" src="./js/crypto-js.js"></script>
+	<script type="text/javascript" src="./js/utf8.js"></script>
+	<script type="text/javascript" src="./js/web3.js"></script>
+    <script type="text/javascript">
+		
+        var Web3 = require('web3');
+        var web3 = new Web3();
+		
+		web3 = new Web3(new Web3.providers.HttpProvider("http://10.0.2.15:8545"));
+        console.log(web3);
+		
+		/*
+		if (typeof web3 !== 'undefined') {
+            web3 = new Web3(web3.currentProvider);
+        } 
+        else { 
+            web3 = new Web3(new Web3.providers.HttpProvider("http://10.0.2.15:8545"));
+        }
+        
+        var network_version = web3.version.network;
+        console.log(network_version);
+		*/
+        // var web3 = new Web3( new Web3.providers.HttpProvider("http://10.0.2.15:8545"));
+		
+		var newAccount = web3.personal.newAccount("password");
+        console.log(newAccount);
+		document.write("your account is " + newAccount + "!");
+    </script>
+</head>
+<body>
+</body>
+</html>

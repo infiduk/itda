@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>잇(it)다♥</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Online Joining form Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-2.2.3.min.js"></script>
+
+<!-- web3 -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/bignumber.min.js"></script>
+	<script type="text/javascript" src="./js/crypto-js.js"></script>
+	<script type="text/javascript" src="./js/utf8.js"></script>
+	<script type="text/javascript" src="./js/web3.js"></script>
+
+<!-- custom css file -->
+<link href="css1/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="css1/style.css">
+<!-- //custom css file -->
+
+<!-- google fonts -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //google fonts -->
+		
+</head>	
+<body>
+
+<script language = "javascript">
+		var Web3 = require('web3');
+        var web3 = new Web3();
+		
+		web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.0.26:8545"));
+        console.log(web3);
+
+		var newAccount = web3.personal.newAccount("password");
+        // console.log(newAccount);
+		$.post('member_insert.php', {private_key: newAccount});
+
+		self.opener = self;
+		window.close();
+</script>
+</body>
+</html>

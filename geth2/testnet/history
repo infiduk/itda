@@ -1,0 +1,101 @@
+eth.accounts
+miner.setEtherbase(0xccd4ac053433a2b65c571e20b45b127e51dbf979)
+miner.setEtherbase("0xccd4ac053433a2b65c571e20b45b127e51dbf979")
+eth.coinbase
+miner.start()
+miner.stop()
+eth.coinbase\
+eth.coinbase
+eth.getBalance(eth.coinbase)
+eth.accounts
+eth.getBalance("0xccd4ac053433a2b65c571e20b45b127e51dbf979")
+miner.setEtherbase("0xccd4ac053433a2b65c571e20b45b127e51dbf979")
+miner.setEtherbase("0xccd4ac053433a2b65c571e20b45b127e51dbf979"
+)
+eth.sendTransaction({from:eth.coinbase, to:eth.accounts[1], value: web3.toWei(0.05, "ether")})
+eth.coinbase
+eth.sendTransaction({from:eth.coinbase, to:eth.accounts[1], value: web3.toWei(0.05, "ether")})
+eth.pendingTransactions
+miner.start()
+eth.pendingTransactions
+miner.stop()
+eth.getBalance(eth.accounts[1])
+miner.start()
+miner.stop
+miner.stop()
+eth.coinbase
+eth.accounts
+miner.setEtherbase("0xccd4ac053433a2b65c571e20b45b127e51dbf979")
+eth.pendingTransactions
+miner.setEtherbase("0x246380b6cae4bdf54186341877b370f655274865")
+miner.start()
+miner.stop()
+eth.pendingTransactions
+miner.start()
+miner.stop()
+eth.pendingTransactions
+eth.accounts
+eth.coinbase
+eth.blockNumber
+eth.pendingTransactions
+eth.accounts
+eth.mining
+eth.accounts
+eth.blockNumber
+miner.start()
+miner.stop()
+eth.getBalance(eth.coinbase)
+eth.coinbase
+miner.setEtherbase("0x14d7621950cd042fbd2b76aaf3e1d365fb553aa2")
+eth.getBalance(eth.coinbase)
+miner.start()
+miner.stop()
+eth.getBalance(eth.coinbase)
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()
+eth.pendingTransactions
+eth.getBalance("0xd82a5bb075569a9cc1480654be1458688235e675")
+eth.getBalance("0x246380b6cae4bdf54186341877b370f655274865")
+eth.getBalance("0x5287f493ba80c70ee482e90fa6db6deff2d75f3d")
+eth.sendTransaction({from:eth.coinbase, to:"0x5287f493ba80c70ee482e90fa6db6deff2d75f3d", value: web3.toWei(10, "ether")});
+eth.getBalance("0x5287f493ba80c70ee482e90fa6db6deff2d75f3d")
+eth.sendTransaction({from:eth.coinbase, to:"0x5287f493ba80c70ee482e90fa6db6deff2d75f3d", value: web3.toWei(10, "ether")});
+eth.getBalance("0x14d7621950cd042fbd2b76aaf3e1d365fb553aa2")
+eth.getBalance("0x3cc88473a794579c5d408a695c41fd65e420e7ff")
+eth.sendTransaction({from:eth.coinbase, to:"0x3cc88473a794579c5d408a695c41fd65e420e7ff", value: web3.toWei(10, "ether")});
+eth.getBalance("0x3cc88473a794579c5d408a695c41fd65e420e7ff")
+eth.sendTransaction({from:eth.coinbase, to:"0x3cc88473a794579c5d408a695c41fd65e420e7ff", value: web3.toWei(10, "ether")});
+eth.getBalance("0x7fae7c607c7f1669611b99f17b74af083b646fe6")
+eth.sendTransaction({from:eth.coinbase, to:"0x7fae7c607c7f1669611b99f17b74af083b646fe6", value: web3.toWei(10, "ether")});
+eth.getBalance("0xd0a97b6f3451a1c156fe096a98b0134e51c70e32")
+eth.sendTransaction({from:eth.coinbase, to:"0xd0a97b6f3451a1c156fe096a98b0134e51c70e32", value: web3.toWei(10, "ether")});
+eth.getBalance("0xd0a97b6f3451a1c156fe096a98b0134e51c70e32")
+eth.sendTransaction({from:eth.coinbase, to:"0xd0a97b6f3451a1c156fe096a98b0134e51c70e32", value: web3.toWei(10, "ether")});
+eth.getBalance("0xf79cafa5531d4e6e9f9eaf07c85385303bd01a72")
+eth.sendTransaction({from:eth.coinbase, to:"0xf79cafa5531d4e6e9f9eaf07c85385303bd01a72", value: web3.toWei(10, "ether")});
+eth.getBalance("0xf95676fce8d008efdbeb1e33b72b8511cb4d671b")
+eth.sendTransaction({from:eth.coinbase, to:"0xf95676fce8d008efdbeb1e33b72b8511cb4d671b", value: web3.toWei(10, "ether")});
+eth.getBalance("0xf95676fce8d008efdbeb1e33b72b8511cb4d671b")
+eth.sendTransaction({from:eth.coinbase, to:"0xf95676fce8d008efdbeb1e33b72b8511cb4d671b", value: web3.toWei(10, "ether")});
+eth.getBalance("0x9dda8b5d8ffd98d8383f41abaaf821475e555ed8")
+eth.getBalance("0xa26bcbf4f15c3170cd49d4fcf94b0c513e628b1e")
+miner.start()
+miner.stop()
+eth.pendingTransactions
+eth.blockNumber
+miner.start()
+miner.stop()
+miner.start()
+miner.stop
+miner.stop()
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()
+eixt

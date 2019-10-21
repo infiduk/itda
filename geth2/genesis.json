@@ -1,0 +1,10 @@
+{
+  "config": {
+    "chainId": 123,
+    "homesteadBlock": 0,
+  },
+  "difficulty": "0x40",
+  "gasLimit": "0x210",
+  "alloc": {
+  }
+}
